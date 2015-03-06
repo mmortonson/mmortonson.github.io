@@ -84,14 +84,19 @@ function switchLink(what){
 
   <div class="project-title">
     <a href="#" onclick="toggleDisplay('tutor'); return false">Predicting online tutor response time</a>
-      <div id="tutor" class="project-details" style="display:none;">
-        As part of the <a href="http://cdips.physics.berkeley.edu/2014-cdips-data-science-workshop/">2014 CDIPS Data Science Workshop</a>, a 3-week program that brought together UC Berkeley grad students and postdocs with several Bay Area data scientists, I worked with Jessica Kirkpatrick (Chegg/InstaEDU), Tova Holmes, and Jeff Dorman to analyze 6 months of online tutoring data from <a href="https://instaedu.com/">InstaEDU</a>. We used Python (with pandas) to clean and organize the data, then used machine learning algorithms (logistic regression, random forests, and support vector machines) to predict which tutors would be the most responsive to a student's request for help, with the goal of reducing wait times. Our code is available in a <a href="https://github.com/berkeleyjess/CDIPSDSW">GitHub repo</a>.
+    <div id="tutor" class="project-details" style="display:none;">
+
+As part of the <a href="http://cdips.physics.berkeley.edu/2014-cdips-data-science-workshop/">2014 CDIPS Data Science Workshop</a>, a 3-week program that brought together UC Berkeley grad students and postdocs with several Bay Area data scientists, I worked with Jessica Kirkpatrick (Chegg/InstaEDU), Tova Holmes, and Jeff Dorman to analyze 6 months of online tutoring data from <a href="https://instaedu.com/">InstaEDU</a>. We used Python (with pandas) to clean and organize the data, then used machine learning algorithms (logistic regression, random forests, and support vector machines) to predict which tutors would be the most responsive to a student's request for help, with the goal of reducing wait times. Our code is available on <a href="https://github.com/berkeleyjess/CDIPSDSW">GitHub</a>.
+
     </div>
   </div>
 
   <div class="project-title">
     <a href="#" onclick="toggleDisplay('arxiv-class'); return false">Classifying science articles</a>
     <div id="arxiv-class" class="project-details" style="display:none;">
+
+Articles submitted to <a href="http://arxiv.org">arXiv</a> are manually classified by the authors, who choose one or more subject categories. I started a project to determine how accurately an article could be classified by analyzing the text of its title and abstract. There are several possible applications of this work and extensions to it using unsupervised categorization, including identifying misclassified articles, suggesting new subject categories that should be created, and recommending articles to read or cite. More details and preliminary code using Naive Bayes classification with the Python <a href="http://textblob.readthedocs.org/en/dev/">TextBlob</a> library are available on <a href="https://github.com/mmortonson/arxiv_classifier">GitHub</a>.
+
     </div>
   </div>
 
